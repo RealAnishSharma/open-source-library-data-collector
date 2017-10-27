@@ -11,7 +11,7 @@
 
 # Announcements
 
-All updates to this project are documented in our [CHANGELOG](https://github.com/sendgrid/open-source-library-data-collector/blob/master/CHANGELOG.md).
+All updates to this project are documented in our [CHANGELOG] (https://github.com/sendgrid/open-source-library-data-collector/blob/master/CHANGELOG.md).
 
 # Table of Contents
 - [Installation](#installation)
@@ -29,6 +29,7 @@ All updates to this project are documented in our [CHANGELOG](https://github.com
 First, get your free SendGrid account [here](https://sendgrid.com/free?source=open-source-data-collector).
 
 Next, update your environment with your [SENDGRID_API_KEY](https://app.sendgrid.com/settings/api_keys).
+Remember without update it will give issues.
 
 ## Initial Setup
 
@@ -96,7 +97,7 @@ heroku addons:create scheduler:standard
 ```
 Configure the scheduler add-on in your Heroku dashboard to run `python app.py` at your desired frequency.
 
-Test by running `heroku run worker`
+Test by running , `heroku run worker`
 
 <a name="roadmap"></a>
 # Roadmap
@@ -122,9 +123,9 @@ Quick links:
 <a name="about"></a>
 # About
 
-open-source-library-data-collector is guided and supported by the SendGrid [Developer Experience Team](mailto:dx@sendgrid.com).
+'open-source-library-data-collector' is guided and supported by the SendGrid [Developer Experience Team](mailto:dx@sendgrid.com).
 
-open-source-library-data-collector is maintained and funded by SendGrid, Inc. The names and logos for open-source-library-data-collector are trademarks of SendGrid, Inc.
+'open-source-library-data-collector' is maintained and funded by SendGrid, Inc. The names and logos for open-source-library-data-collector are trademarks of SendGrid, Inc.
 
 <a name="license"></a>
 # License
